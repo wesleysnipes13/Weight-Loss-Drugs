@@ -19,6 +19,26 @@ h1 {
     font-size: 2em;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
     max-width: 1200px;
@@ -81,4 +101,51 @@ footer {
 
 p {
     margin: 5px 0;
+}
+
+#rss-feed ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#rss-feed li {
+    margin: 10px 0;
+}
+
+#comment-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+#comment-section label {
+    margin-top: 10px;
+}
+
+#comment-section input, #comment-section textarea {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 1em;
+}
+
+#comment-section button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#comment-section button:hover {
+    background-color: #45a049;
+}
+
+#comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#comment-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
 }
